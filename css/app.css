@@ -121,7 +121,8 @@ body#landing-a{
   font-size: 1rem;
 }
 
-#landing-blank {
+#blank,
+#question {
   background-image: url(../img/background_blank.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -181,10 +182,47 @@ body#landing-a{
   padding: 30px 20px 30px 15px;
 }
 
-/* ==== Landing blank ==== */
+/* ==== Question view ==== */
 
+#question h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
 
+form.questions {
+  margin-top: 20vh;
+}
 
+#question input {
+  background-color: transparent;
+  height: 3rem;
+  border: none;
+  box-shadow: none;
+  border-bottom: 2px black;
+  border-bottom-style: dashed;
+  font-family: 'Titillium Web', Arial;
+  font-size: 1.3rem;
+  color: #005ab0;
+  margin-top: 30px;
+}
+
+.questions a.button {
+  display: block;
+  width: 130px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #5aaa28;
+  font-family: 'Titillium Web', Arial;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.questions .caption{
+  font-size: 1rem;
+  color: #005ab0;
+  font-family: 'Titillium Web';
+}
 
 /* ==== Form ==== */
 
@@ -232,12 +270,11 @@ form {
   width: 200px;
   margin: 0 auto;
   border-radius: 5px;
-  background-color: #5aaa28;
+  background-color: #c52127;
   font-family: 'Titillium Web', Arial;
   padding: 15px;
   margin-top: 20px;
 }
-
 
 
 /* ==== Footer ==== */
@@ -283,7 +320,7 @@ form {
   margin-right: 2px;
 }
 
-.progress-bar .arrow-bar {
+.progress-bar > .arrow-bar {
   padding: 12px 0px;
 }
 

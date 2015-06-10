@@ -9,41 +9,55 @@
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,600italic,700,700italic,400italic,300italic,300' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr.js"></script>
   </head>
-  <body id="landing-blank">
+  <body id="question">
     <div class="wrapper clearfix">
     <!-- Nav -->
-      <!-- <div class="fixed"> -->
-        <nav class="top-bar" data-topbar role="navigation">
+      <nav class="top-bar" data-topbar role="navigation">
         <span class="tagline">Roadmapto<span class="text-blue">Change</span></span>
-          <ul class="title-area">
-            <li class="logo" id="logo-rackspace">
-              <a href="#"><img src="./img/logo_rackspace.png"></img></a>
-            </li>
-            <li class="logo" id="logo-emc">
-              <a href="#"><img src="./img/logo_emc.png"></img></a>
-            </li>
-            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        <ul class="title-area">
+          <li class="logo" id="logo-rackspace">
+            <a href="#"><img src="./img/logo_rackspace.png"></img></a>
+          </li>
+          <li class="logo" id="logo-emc">
+            <a href="#"><img src="./img/logo_emc.png"></img></a>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right " id="social-bar">
+            <li><a href="#">Share</a></li>
+            <li class=""><a href="#"><img src="./img/icon_twitter.png"></a></li>
+            <li class=""><a href="#"><img src="./img/icon_facebook.png"></a></li>
+            <li class=""><a href="#"><img src="./img/icon_linkedin.png"></a></li>
           </ul>
-          <section class="top-bar-section">
-            <!-- Right Nav Section -->
-            <ul class="right " id="social-bar">
-              <li><a href="#">Share</a></li>
-              <li class=""><a href="#"><img src="./img/icon_twitter.png"></a></li>
-              <li class=""><a href="#"><img src="./img/icon_facebook.png"></a></li>
-              <li class=""><a href="#"><img src="./img/icon_linkedin.png"></a></li>
-            </ul>
-          </section>
-        </nav>
-      <!-- </div> -->
-    </div>
-    <!-- Progress bar -->
-    <div class="progress-bar">
-      <div class="columns large-10"><p>1 of 15 answered</p></div>
-      <div class="columns large-2 arrow-bar">
-        <a href="#" class="button">&#9668;</a>
-        <a href="#" class="button">&#9658;</a>
+        </section>
+      </nav>
+
+      <!-- Question -->
+
+      <form class="questions">
+        <div class="row text-center">
+          <div class="columns large-8 large-offset-2">
+            <label><h2>What is your biggest obstacle this year?</h2></label>
+            <span class="caption">Besides Betty from Finance, outsourcing, something, etc.</span>
+            <input type="text" placeholder="|"/>
+          </div>
+        </div>
+        <a href="#" class="button">Next</a>
+      </form>
+
+      <!-- Progress bar -->
+      <div class="progress-bar">
+        <div class="columns large-10"><p>1 of 15 answered</p></div>
+        <div class="columns large-2 arrow-bar">
+          <a href="#" class="button">&#9668;</a>
+          <a href="#" class="button">&#9658;</a>
+        </div>
       </div>
     </div>
+
+
     <!-- Footer -->
 <!--     <div class="row">
       <div class="footer large-12 columns text-center">
